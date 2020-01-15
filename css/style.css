@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* navigation menu*/
+.nav-color {
+    background: linear-gradient(to right, #e30a73, #feae04);
+}
+
+/* navbar toggler for mobile device*/
+.navbar-toggleicon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar-toggleicon span {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3;
+    display: block;
+    height: 3px;
+    margin-top: 5px;
+    padding: 0;
+    transition-duration: .3s;
+    width: 30px;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #fff;
+}
+
+.menu-text {
+    color: #fff;
+}
+
+.menu-text:hover {
+    color: #fff;
+}
+
+.menu-child {
+    color: #e30a73;
+}
+
+.menu-child:hover {
+    color: #e30a73;
+}
+
+.menu-child:active {
+    background-color: #e30a73;
+    color: #fff;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    background-color: #ffb3ff;
+}
+
+.breadcrumb-item {
+    padding: 3px;
+}
+
+.breadcrumb-text {
+    color: black;
+}
+
+.breadcrumb-text:active {
+    color: black;
+    text-decoration: none;
+}
+
+span a {
+    color: black;
+}
+
+span a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/*form*/
+h3 {
+    color: #e30a73;
+}
+
+.cover-box {
+    border: 1px solid #e30a73;
+}
+
+/* tags*/
+.btn-color {
+    background: linear-gradient(to right, #e30a73, #feae04);
+    color: #fff;
+}
+
+.btn-color:hover {
+    background: linear-gradient(to right, #feae04, #e30a73);
+    color: #fff;
+}
+
+/* footer */
+
+.footer-pane {
+    background-color: #f3f5f8;
+    border-top: 2px solid #e30a73;
+}
+
+.nav-footer {
+    color: #e30a73;
+}
+
+.nav-footer:hover {
+    color: #e30a73;
+}
