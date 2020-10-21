@@ -1,11 +1,16 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* navigation menu*/
 .nav-color {
     background: linear-gradient(to right, #e30a73, #feae04);
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
 }
 
 /* navbar toggler for mobile device*/
@@ -52,51 +57,57 @@ body {
     color: #fff;
 }
 
-/* breadcrumb */
-.breadcrumb {
-    background-color: #ffb3ff;
-}
-
-.breadcrumb-item {
-    padding: 3px;
-}
-
-.breadcrumb-text {
-    color: black;
-}
-
-.breadcrumb-text:active {
-    color: black;
-    text-decoration: none;
-}
-
-span a {
-    color: black;
-}
-
-span a:hover {
-    text-decoration: none;
-    color: black;
-}
-
 /*form*/
-h3 {
+h4 {
+    color: #2b044d;
+    font-family: 'Nunito', sans-serif;
+}
+
+.lg-header{
+    color: #2b044d;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-download{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e30a73;
+    color: white;
+}
+
+.btn-download:hover{
+    background-color: white;
     color: #e30a73;
+    border: 2px splid #e30a73;
 }
 
-.cover-box {
-    border: 1px solid #e30a73;
+.btn-download-git{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #2b044d;
+    color: white;
 }
 
-/* tags*/
-.btn-color {
-    background: linear-gradient(to right, #e30a73, #feae04);
-    color: #fff;
+.btn-download-git:hover{
+    background-color: white;
+    color: #2b044d;
+    border: 2px solid #2b044d;
 }
 
-.btn-color:hover {
-    background: linear-gradient(to right, #feae04, #e30a73);
-    color: #fff;
+.main-img{
+    height: 380px; border: 2px solid #e30a73; border-radius: 15px;
+}
+
+i{
+    background: #e30a73;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.ct-us{
+    border-top: 2px solid #e30a73;
+    background-color: #f3f5f8;
 }
 
 /* footer */
@@ -112,4 +123,27 @@ h3 {
 
 .nav-footer:hover {
     color: #e30a73;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 500px){
+    .lg-header{
+        font-size: 30px;
+    }
+
+    .logo-footer{
+        /* hide image on small device */
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .lg-header{
+        font-size: 30px;
+    }
+    .main-img{
+        height: 300px;
+    }
 }
